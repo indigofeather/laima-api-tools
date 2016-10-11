@@ -1,0 +1,25 @@
+{
+  "name": "laima-api-tools",
+  "version": "0.1.0",
+  "description": "API tools, use API Blueprint format.",
+  "license": "MIT",
+  "author": {
+    "name": "Lance He (a.k.a. indigofeather)",
+    "email": "indigofeather@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:indigofeather/laima-api-tools.git"
+  },
+  "scripts": {
+    "build": "aglio -i index.apib --theme-variables slate --theme-template triple -o index.html",
+    "doc": "aglio -i index.apib --theme-variables slate --theme-template triple -s",
+    "mock": "drakov -f index.apib -p 3000 --watch",
+    "test": "dredd index.apib"
+  },
+  "devDependencies": {
+    "aglio": "2.2.1",
+    "drakov": "1.0.1",
+    "dredd": "2.1.1"
+  }
+}

@@ -730,9 +730,9 @@ dredd-transactions@^3.0.0:
     traverse "^0.6.6"
     uri-template "^1.0.0"
 
-dredd@2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/dredd/-/dredd-2.1.1.tgz#246924f563085f2afe517f2cdc95acc01774e20a"
+dredd@2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/dredd/-/dredd-2.2.1.tgz#9c00df12cdf3fef4920c4d1308cefe74ca95e569"
   dependencies:
     advisable "^0.2.0"
     async "^2.0.0-rc.6"
@@ -756,6 +756,7 @@ dredd@2.1.1:
     request "^2.74.0"
     spawn-args "^0.2.0"
     spawn-sync "^1.0.15"
+    sync-exec "^0.6.2"
     uri-template "^1.0.1"
     winston "^2.2.0"
 
@@ -2598,6 +2599,10 @@ swagger-parser@^3.3.0:
 swagger-schema-official@2.0.0-bab6bed:
   version "2.0.0-bab6bed"
   resolved "https://registry.yarnpkg.com/swagger-schema-official/-/swagger-schema-official-2.0.0-bab6bed.tgz#70070468d6d2977ca5237b2e519ca7d06a2ea3fd"
+
+sync-exec@^0.6.2:
+  version "0.6.2"
+  resolved "https://registry.yarnpkg.com/sync-exec/-/sync-exec-0.6.2.tgz#717d22cc53f0ce1def5594362f3a89a2ebb91105"
 
 tar-pack@~3.1.0:
   version "3.1.4"

@@ -394,6 +394,10 @@ clone@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/clone/-/clone-1.0.2.tgz#260b7a99ebb1edfe247538175f783243cb19d149"
 
+clone@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/clone/-/clone-2.0.0.tgz#df65d3ca142e4a4a47db33da3468d088a16fc76e"
+
 code-point-at@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.0.1.tgz#1104cd34f9b5b45d3eba88f1babc1924e1ce35fb"
@@ -716,31 +720,31 @@ drakov@1.0.1:
     tv4 "^1.1.9"
     yargs "^4.2.0"
 
-dredd-transactions@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/dredd-transactions/-/dredd-transactions-3.0.0.tgz#e0b57ed21b5f66ff602ab358357ab76f2e4b8462"
+dredd-transactions@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/dredd-transactions/-/dredd-transactions-3.0.1.tgz#5b87316e4f0e4ad4989ed394d2e1889bfd48d764"
   dependencies:
     caseless "^0.11.0"
     clone "^1.0.2"
     deckardcain "^0.3.2"
     fury "^2.1.0"
     fury-adapter-apib-parser "^0.3.0"
-    fury-adapter-swagger "^0.9.1"
+    fury-adapter-swagger "^0.9.7"
     sift "^3.2.1"
     traverse "^0.6.6"
     uri-template "^1.0.0"
 
-dredd@2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/dredd/-/dredd-2.2.1.tgz#9c00df12cdf3fef4920c4d1308cefe74ca95e569"
+dredd@2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/dredd/-/dredd-2.2.2.tgz#9771ed14e675da337e35240d606f11bc1efc5c4c"
   dependencies:
     advisable "^0.2.0"
     async "^2.0.0-rc.6"
     chai "^3.5.0"
-    clone "^1.0.2"
+    clone "^2.0.0"
     coffee-script "^1.10.0"
     colors "^1.1.2"
-    dredd-transactions "^3.0.0"
+    dredd-transactions "^3.0.1"
     file "^0.2.2"
     gavel "^0.5.3"
     glob "^7.0.5"
@@ -748,7 +752,7 @@ dredd@2.2.1:
     htmlencode "0.0.4"
     inquirer "^1.1.0"
     js-yaml "^3.6.1"
-    markdown-it "^7.0.0"
+    markdown-it "^8.0.1"
     node-uuid "^1.4.7"
     optimist "^0.6.1"
     pitboss-ng "^0.3.2"
@@ -1097,9 +1101,9 @@ fury-adapter-apib-parser@^0.3.0:
     deckardcain "^0.1.6"
     drafter "^1.0.0"
 
-fury-adapter-swagger@^0.9.1:
-  version "0.9.6"
-  resolved "https://registry.yarnpkg.com/fury-adapter-swagger/-/fury-adapter-swagger-0.9.6.tgz#b764dcc0a3ba3e632c039bc2a69c71edb1fb4b57"
+fury-adapter-swagger@^0.9.7:
+  version "0.9.7"
+  resolved "https://registry.yarnpkg.com/fury-adapter-swagger/-/fury-adapter-swagger-0.9.7.tgz#17a5a7d0ec52d121517417d1ae1d3d09aed04e48"
   dependencies:
     babel-runtime "^5.8.20"
     js-yaml "^3.4.2"
@@ -1694,15 +1698,15 @@ markdown-it@^4.3.0:
     mdurl "~1.0.0"
     uc.micro "^1.0.0"
 
-markdown-it@^7.0.0:
-  version "7.0.1"
-  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-7.0.1.tgz#f12d8b88a93e64254348dfd183bd70bf60567a42"
+markdown-it@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/markdown-it/-/markdown-it-8.0.1.tgz#ff60e2103d17896cb6c57407baa9766f916495cb"
   dependencies:
     argparse "^1.0.7"
     entities "~1.1.1"
     linkify-it "^2.0.0"
     mdurl "^1.0.1"
-    uc.micro "^1.0.1"
+    uc.micro "^1.0.3"
 
 mdurl@^1.0.1, mdurl@~1.0.0:
   version "1.0.1"
@@ -2694,7 +2698,7 @@ typedarray@~0.0.5:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
 
-uc.micro@^1.0.0, uc.micro@^1.0.1:
+uc.micro@^1.0.0, uc.micro@^1.0.1, uc.micro@^1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/uc.micro/-/uc.micro-1.0.3.tgz#7ed50d5e0f9a9fb0a573379259f2a77458d50192"
 

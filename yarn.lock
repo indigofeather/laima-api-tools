@@ -734,9 +734,9 @@ dredd-transactions@^3.0.1:
     traverse "^0.6.6"
     uri-template "^1.0.0"
 
-dredd@2.2.2:
-  version "2.2.2"
-  resolved "https://registry.yarnpkg.com/dredd/-/dredd-2.2.2.tgz#9771ed14e675da337e35240d606f11bc1efc5c4c"
+dredd@2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/dredd/-/dredd-2.2.3.tgz#9e9a5ef8a635f484b8e974355a7d0174e0c30e6b"
   dependencies:
     advisable "^0.2.0"
     async "^2.0.0-rc.6"

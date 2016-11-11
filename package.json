@@ -18,7 +18,7 @@
     "test": "dredd index.apib"
   },
   "devDependencies": {
-    "aglio": "2.2.1",
+    "aglio": "2.3.0",
     "drakov": "1.0.1",
     "dredd": "2.2.3"
   }

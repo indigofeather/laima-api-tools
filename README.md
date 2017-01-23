@@ -1,5 +1,7 @@
 # laima-api-tools
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/indigofeather/laima-api-tools.svg)](https://greenkeeper.io/)
+
 API tools, use [API Blueprint format](https://apiblueprint.org/documentation/).
 
 The sample `index.apib` is from <https://github.com/MeteoGroup/weather-api> 

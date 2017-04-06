@@ -20,6 +20,6 @@
   "devDependencies": {
     "aglio": "2.3.0",
     "drakov": "1.0.1",
-    "dredd": "2.2.5"
+    "dredd": "3.4.1"
   }
 }
